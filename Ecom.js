@@ -120,20 +120,20 @@ window.addEventListener("DOMContentLoaded", () => {
     cross.addEventListener("click", function () {
         buyPage.style.display = "none";
     });
-
-    //connect
-    function connect() {
-        let nameInput = document.getElementById("contactName");
-        let numInput = document.getElementById("contactNumber");
-
-        let name = nameInput.value.trim();
-        let num = numInput.value.trim();
-
-        if (name === "" || num === "") {
-            alert("Please fill in both Name and Mobile Number 💬");
-        } else {
-            alert(`Thanks for connecting, ${name}! 💖 We'll reach out to you soon.`);
-        }
-    }
-
 });
+//connect
+function connect() {
+    let nameInput = document.getElementById("contactName");
+    let numInput = document.getElementById("contactNumber");
+
+    let name = nameInput.value.trim();
+    let num = numInput.value.trim();
+
+    if (name === "" || num === "") {
+        alert("Please fill in both Name and Mobile Number 💬");
+    } else {
+        alert(`Thanks for connecting, ${name}! 💖 We'll reach out to you soon.`);
+    }
+}
+
+

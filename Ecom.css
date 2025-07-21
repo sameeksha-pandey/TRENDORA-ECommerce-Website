@@ -261,9 +261,15 @@ ul li a.active {
 
 .itemPage {
     display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    z-index: 1000;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: start;
+    align-items: flex-start;
     gap: 40px;
     padding: 40px;
     background-color: #fbe5e5;
